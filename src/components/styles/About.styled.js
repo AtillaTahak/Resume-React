@@ -33,10 +33,12 @@ font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe 
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1rem;
+    opacity: 0.7;
+
 `
 export const Description = styled.p`
-    font-size: 0.75rem;
-    font-weight: 400;
+    font-size: 0.8rem;
+    width: 80%;
 `
 
 export const SocialLink = styled(SocialIcon)`

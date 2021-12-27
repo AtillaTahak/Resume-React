@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '../img/img.jpg';
-import {Menus, MenusUl, MenusUlLi} from './styles/Menus.styled'
+import {Menus, MenusUl, MenusUlLi, MenusUlLiA} from './styles/Menus.styled'
 export const Menu = () =>{
 
 
@@ -8,11 +8,11 @@ export const Menu = () =>{
         <Menus>
             <MenusUl>
                 <MenusUlLi><img className="profilePhoto" src={img} alt='empty'/></MenusUlLi>
-                <MenusUlLi><a href="#experience">EXPERIENCE</a></MenusUlLi>
-                <MenusUlLi><a href="#education">EDUCATION</a></MenusUlLi>
-                <MenusUlLi><a href="#skills">SKILLS</a></MenusUlLi>
-                <MenusUlLi><a href="#interests">INTERESTS</a></MenusUlLi>
-                <MenusUlLi><a href="#awards">AWARDS</a></MenusUlLi>
+                <MenusUlLi><MenusUlLiA href="#experience">EXPERIENCE</MenusUlLiA></MenusUlLi>
+                <MenusUlLi><MenusUlLiA href="#education">EDUCATION</MenusUlLiA></MenusUlLi>
+                <MenusUlLi><MenusUlLiA href="#skills">SKILLS</MenusUlLiA></MenusUlLi>
+                <MenusUlLi><MenusUlLiA href="#interests">INTERESTS</MenusUlLiA></MenusUlLi>
+                <MenusUlLi><MenusUlLiA href="#awards">AWARDS</MenusUlLiA></MenusUlLi>
             </MenusUl>
         </Menus>
     );
