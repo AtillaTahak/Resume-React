@@ -1,20 +1,20 @@
 import React from 'react';
-import img from '../img.jpg';
-
+import img from '../img/img.jpg';
+import {Menus, MenusUl, MenusUlLi} from '../styles/Menus.styled'
 export const Menu = () =>{
 
 
     return(
-        <nav>
-            <ul>
-                <li><img className="profilePhoto" src={img}/></li>
-                <li><a>EXPERIENCE</a></li>
-                <li><a>EDUCATION</a></li>
-                <li><a>SKILLS</a></li>
-                <li><a>INTERESTS</a></li>
-                <li><a>AWARDS</a></li>
-            </ul>
-        </nav>
+        <Menus>
+            <MenusUl>
+                <MenusUlLi><img className="profilePhoto" src={img} alt='empty'/></MenusUlLi>
+                <MenusUlLi><a>EXPERIENCE</a></MenusUlLi>
+                <MenusUlLi><a>EDUCATION</a></MenusUlLi>
+                <MenusUlLi><a>SKILLS</a></MenusUlLi>
+                <MenusUlLi><a>INTERESTS</a></MenusUlLi>
+                <MenusUlLi><a>AWARDS</a></MenusUlLi>
+            </MenusUl>
+        </Menus>
     );
 
 }

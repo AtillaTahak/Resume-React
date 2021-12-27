@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components'
+
+const GlobalStye = createGlobalStyle`
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -9,25 +12,14 @@
   justify-content: center;
   align-content: center;
 }
-nav{
-  background-color: #BD5D38;
-}
-nav ul{
-  list-style: none;
-}
-nav ul li a{
-  color: rgba(255, 255, 255, 0.55);
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-}
-nav ul li a:hover{
-  text-decoration: underline;
-  cursor: pointer;
 
-}
 .profilePhoto{
   width: 160px;
   height: 160px;
   border-radius: 50% !important;
 }
+
+
+`
+
+export default GlobalStye;
