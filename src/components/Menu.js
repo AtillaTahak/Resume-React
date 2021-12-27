@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '../img/img.jpg';
-import {Menus, MenusUl, MenusUlLi} from '../styles/Menus.styled'
+import {Menus, MenusUl, MenusUlLi} from './styles/Menus.styled'
 export const Menu = () =>{
 
 
