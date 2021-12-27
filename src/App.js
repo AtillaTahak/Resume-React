@@ -7,9 +7,6 @@ import { ThemeProvider } from 'styled-components'
 const theme ={
   colors:{
     default:'#bd5d38',
-    header:'#ebfbff',
-    body:'#fff',
-    footer:'#000333'
   }
 }
 function App() {
