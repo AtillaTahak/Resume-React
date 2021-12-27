@@ -6,13 +6,14 @@ export const Experience = () => {
     return (
         <>
             <hr />
-            <Content>
-                <h1>Experience</h1>
+            <Content id='experience'>
                 <Cards>
                     <CardsDate>
                         02, 2015– Present
                     </CardsDate>
                     <CardDetails>
+                    <h1>Experience</h1>
+
                         <h3>Full-stack Web Development </h3>
                         <SubHeading>as a Freelance</SubHeading>
                         <p>

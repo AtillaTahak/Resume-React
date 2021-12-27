@@ -6,6 +6,7 @@ flex-direction:column;
 height: 100vh;
 justify-content: center;
 margin:auto 2%;
+margin-top: 20%;
 
 `
 
