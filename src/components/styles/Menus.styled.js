@@ -10,6 +10,9 @@ export const MenusUl = styled.ul`
   align-items: center;
   height: 100vh;  
   justify-content: center;
+  position: sticky;
+  top:0;
+ 
 
 `
 

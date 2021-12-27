@@ -22,10 +22,10 @@ export const Title = styled.h1`
     text-transform: uppercase;
 `
 export const Titlespan = styled.span`
-color: ${({theme})=>theme.colors.default};
+color: ${({ theme }) => theme.colors.default};
 `
 export const TitleA = styled.a`
-color: ${({theme})=>theme.colors.default};
+color: ${({ theme }) => theme.colors.default};
 text-decoration: none;
 `
 export const Adress = styled.p`
@@ -45,6 +45,7 @@ export const SocialLink = styled(SocialIcon)`
 margin-right: 10px;
 margin-top: 5%;
 &:hover{
-    background-color: ${({theme})=>theme.colors.default};
+    transform: scale(1.1);
+    
 }
 `
