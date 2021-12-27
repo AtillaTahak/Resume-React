@@ -8,11 +8,11 @@ export const Menu = () =>{
         <Menus>
             <MenusUl>
                 <MenusUlLi><img className="profilePhoto" src={img} alt='empty'/></MenusUlLi>
-                <MenusUlLi><a>EXPERIENCE</a></MenusUlLi>
-                <MenusUlLi><a>EDUCATION</a></MenusUlLi>
-                <MenusUlLi><a>SKILLS</a></MenusUlLi>
-                <MenusUlLi><a>INTERESTS</a></MenusUlLi>
-                <MenusUlLi><a>AWARDS</a></MenusUlLi>
+                <MenusUlLi><a href="#experience">EXPERIENCE</a></MenusUlLi>
+                <MenusUlLi><a href="#education">EDUCATION</a></MenusUlLi>
+                <MenusUlLi><a href="#skills">SKILLS</a></MenusUlLi>
+                <MenusUlLi><a href="#interests">INTERESTS</a></MenusUlLi>
+                <MenusUlLi><a href="#awards">AWARDS</a></MenusUlLi>
             </MenusUl>
         </Menus>
     );
