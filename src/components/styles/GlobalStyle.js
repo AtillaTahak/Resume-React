@@ -41,6 +41,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     line-height: 1.2;
     color: #343a40;
 }
+.active{
+  color: white;
+}
+
 
 `
 
