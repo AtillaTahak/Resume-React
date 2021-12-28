@@ -13,7 +13,7 @@ export const Skills = () => {
     return (
         <>
         <hr/>
-            <Content>
+            <Content id='skills'>
                 <h2>Skills</h2>
                 <SubHeading>PROGRAMMING LANGUAGES& TOOLS</SubHeading>
                 <ul>
