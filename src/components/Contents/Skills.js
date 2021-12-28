@@ -9,6 +9,7 @@ import {Content, LiFont} from '../styles/Skills.styled'
 
 
 
+
 export const Skills = () => {
     return (
         <>
