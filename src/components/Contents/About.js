@@ -7,7 +7,7 @@ import { Context, Title, Titlespan, Adress, Description,SocialLink,TitleA } from
 
 export const About = () => {
     return (
-        <Context>
+        <Context id='about'>
             <Title>Atilla Taha  <Titlespan>Kördüğüm</Titlespan></Title>
             <Adress> 48100 MENTEŞE · TURKEY/MUGLA · 248.STEET ·+90543-499-56-37 ·<TitleA href='mailto:atillatahaa@gmail.com'>ATİLLATAHAA@GMAİL.COM</TitleA> </Adress>
             <Description>Hi friends! I'm a full-stack developer specializing in using HTML,CSS,JavaScript,Asp.Net MVC to build software solutions for small businesses. Also, I built a Qr menu system for restaurants and an automated system for hospitals</Description>

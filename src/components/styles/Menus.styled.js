@@ -12,8 +12,6 @@ export const MenusUl = styled.ul`
   justify-content: center;
   position: sticky;
   top:0;
- 
-
 `
 
 export const MenusUlLi = styled.ul`

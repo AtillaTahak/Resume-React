@@ -6,7 +6,7 @@ flex-direction:column;
 height: 100vh;
 justify-content: center;
 margin:auto 2%;
-margin-top: 20%;
+margin-top: 10vh;
 
 `
 
@@ -16,7 +16,6 @@ justify-content:space-between;
 flex-direction: row-reverse;
 flex-wrap: wrap;
 
-margin-top: 5%;
 `
 export const CardsDate = styled.p`
     color: ${({theme})=>theme.colors.default};

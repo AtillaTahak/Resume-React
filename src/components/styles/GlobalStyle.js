@@ -19,6 +19,7 @@ const GlobalStye = createGlobalStyle`
   width: 160px;
   height: 160px;
   border-radius: 50% !important;
+  border: 7px solid #CA7D60;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
