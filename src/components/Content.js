@@ -20,7 +20,8 @@ const Content = () => {
             <Education
                 data={info.education} />
             <Skills />
-            <Interests />
+            <Interests
+                data={info.interests} />
             <Awards />
 
         </div>
