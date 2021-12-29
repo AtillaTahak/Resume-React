@@ -17,7 +17,8 @@ const Content = () => {
                 data={info.about} />
             <Experience
                 data={info.experience} />
-            <Education />
+            <Education
+                data={info.education} />
             <Skills />
             <Interests />
             <Awards />

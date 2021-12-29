@@ -22,6 +22,24 @@ const info = {
             { id: 3, name: "Car Washing", subdescribe: " — Built a web app to track car washing companies & achieved 100% success in what proportion of car washing companies.", built: "● Built with: JQuery, Asp.net, MsSQL" },
             { id: 4, name: "Qr Menu for restaurant", subdescribe: " — Build a web app to show the menu with Qr code & Online increased sales by 20% during the pandemic.", built: " ● Built with:JQuery, Asp.net, MsSQL" }
         ]
+    },
+    education: [{
+        id:1,
+        name: "MICROVERSE",
+        subHead: "Remote Full Stack Web Development Program, Full Time",
+        describe: " ● Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.<br/> ● Developed skills in remote pair-programming using GitHub, industry-standard gitflow, and daily standups to communicate and collaborate with international remote developers.",
+        date: "October, 2021– June, 2022"
+
+    },
+    {
+        id:2,
+        name: "Atatürk University ",
+        subHead: "Computer Programming",
+        describe: "● GPA: 3.23",
+        date: "October, 2021– June, 2022"
+
     }
+    ],
+    
 }
 export default info;
