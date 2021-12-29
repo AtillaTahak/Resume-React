@@ -1,11 +1,10 @@
 import React from 'react';
 import img from '../img/img.jpg';
 import { Menus, MenusUl, MenusUlLi, MenusUlLiA } from './styles/Menus.styled'
-import { animateScroll as scrollSpy} from 'react-scroll'
+
 
 
 export const Menu = () => {
-    console.log(scrollSpy)
     return (
         <Menus>
             <MenusUl>
