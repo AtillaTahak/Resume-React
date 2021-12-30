@@ -28,5 +28,6 @@ export const MenusUlLiA = styled(Link)`
   &:hover{
   text-decoration: underline;
   cursor: pointer;
+  color:white;
   }
 `

@@ -5,23 +5,27 @@ import Education from './Contents/Education';
 import Skills from './Contents/Skills';
 import Interests from './Contents/Interests';
 import Awards from './Contents/Awards';
+import info from './data/data'
 
 
 
 
-const Content = () =>{
-
-    return(
+const Content = () => {
+    return (
         <div className='Content'>
-            <About />
-            <Experience />
-            <Education />
+            <About
+                data={info.about} />
+            <Experience
+                data={info.experience} />
+            <Education
+                data={info.education} />
             <Skills />
-            <Interests />
+            <Interests
+                data={info.interests} />
             <Awards />
 
         </div>
     );
-    
+
 }
 export default Content;
