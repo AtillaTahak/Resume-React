@@ -14,6 +14,8 @@ export const Interests = (props) => {
                </span>
 
             </Content>
+            <hr/>
+
         </>
     );
 

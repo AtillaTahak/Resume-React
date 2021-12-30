@@ -1,22 +1,18 @@
-import React, {useEffect} from 'react';
-import  {useSelector, useDispatch} from 'react-redux';
-import {projectAction} from '../Redux/Projects/ReduxProject'
+import React from 'react';
 
+const Project = (props) => {
 
-
-export const Awards = () => {
-    const projectsState = useSelector(state =>state.project);
-    const dispatch = useDispatch();
-    useEffect(()=>{
-        dispatch(projectAction());
-    }, [])
     return (
         <div>
-            {projectsState.data.map((e)=>{console.log(e.name)})}
+            <a href={props.data.html_url}><h3>Project Name : {props.data.full_name}</h3></a>
+            <p> Description : {props.data.description}</p>
+            <p> Language : {props.data.language}</p>
+            <p> Star Count : {props.data.stargazers_count}</p>
+            <span> Created Date: {props.data.created_at}</span>
+
 
         </div>
     );
-
 }
 
-export default Awards;
+export default Project;
