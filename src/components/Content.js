@@ -4,7 +4,7 @@ import Experience from './Contents/Experience';
 import Education from './Contents/Education';
 import Skills from './Contents/Skills';
 import Interests from './Contents/Interests';
-import Awards from './Contents/Awards';
+import Project from './Contents/Project';
 import info from './data/data'
 
 
@@ -22,7 +22,7 @@ const Content = () => {
             <Skills />
             <Interests
                 data={info.interests} />
-            <Awards />
+            <Project />
 
         </div>
     );

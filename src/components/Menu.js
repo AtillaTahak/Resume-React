@@ -13,7 +13,7 @@ export const Menu = () => {
                 <MenusUlLi><MenusUlLiA activeClass='active' to="education" spy={true} smooth={true} duration={1000}>EDUCATION</MenusUlLiA></MenusUlLi>
                 <MenusUlLi><MenusUlLiA activeClass='active' to="skills" spy={true} smooth={true} duration={1000}>SKILLS</MenusUlLiA></MenusUlLi>
                 <MenusUlLi><MenusUlLiA activeClass='active' to="interests" spy={true} smooth={true} duration={1000}>INTERESTS</MenusUlLiA></MenusUlLi>
-                <MenusUlLi><MenusUlLiA activeClass='active' to="awards" spy={true}smooth={true} duration={1000}>AWARDS</MenusUlLiA></MenusUlLi>
+                <MenusUlLi><MenusUlLiA activeClass='active' to="Project" spy={true}smooth={true} duration={1000}>Projects</MenusUlLiA></MenusUlLi>
             </MenusUl>
         </Menus>
     );
