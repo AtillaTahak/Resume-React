@@ -1,7 +1,8 @@
 import {createSlice, createAsyncThunk} from '@reduxjs/toolkit'
+import data  from "../../data/data"
 
 export const projectAction = createAsyncThunk('project/ReduxProjects',async()=>{
-    const req = await fetch('https://api.github.com/users/AtillaTahak/repos');
+    const req = await fetch('https://api.github.com/users/'+data.github+'/repos');
     const projects = req.json();
     return projects;
 })

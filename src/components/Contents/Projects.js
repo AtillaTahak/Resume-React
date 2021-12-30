@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { projectAction } from '../Redux/Projects/ReduxProject'
 import Project from './Project'
-import {Container} from '../styles/Projects.styled';
+import { Container } from '../styles/Projects.styled';
 
 
 export const Projects = () => {
@@ -17,6 +17,7 @@ export const Projects = () => {
                 <Project key={e.id} data={e} />
             )
             )}
+            <h2>My Projects</h2>
         </Container>
     );
 

@@ -1,17 +1,18 @@
 import React from 'react';
+import { Container, ProjectLink, Projecth3, ProjectLabel } from '../styles/Project.styled';
 
 const Project = (props) => {
 
     return (
-        <div>
-            <a href={props.data.html_url}><h3>Project Name : {props.data.full_name}</h3></a>
-            <p> Description : {props.data.description}</p>
-            <p> Language : {props.data.language}</p>
-            <p> Star Count : {props.data.stargazers_count}</p>
-            <span> Created Date: {props.data.created_at}</span>
+            <Container>
+                <ProjectLink href={props.data.html_url} target="_blank"><Projecth3>Project Name : {props.data.full_name}</Projecth3></ProjectLink>
 
+                <h4><ProjectLabel>Description : </ProjectLabel>{props.data.description} </h4>
+                <p><ProjectLabel>Language : </ProjectLabel>  {props.data.language}</p>
+                <p><ProjectLabel>Star Count : </ProjectLabel>  {props.data.stargazers_count}</p>
+                <span><ProjectLabel>Created Date : </ProjectLabel>  {props.data.created_at}</span>
+            </Container>
 
-        </div>
     );
 }
 

@@ -1,10 +1,6 @@
 import React from 'react';
 import { Context, Title, Titlespan, Adress, Description, SocialLink, TitleA } from '../styles/About.styled'
 
-
-
-
-
 export const About = (props) => {
     return (
         <Context id='about'>
