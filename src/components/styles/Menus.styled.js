@@ -60,8 +60,16 @@ export const MobileMenus = styled.nav`
 
 export const MobileMenusUl = styled.ul` 
 
-margin-top:20px;
-list-style: disc;
+margin-top:10px;
+list-style: none;
 padding-bottom:20px;
+display: ${({open})=>open ? 'flex':'none'};
+${console.log(({open})=>open)}
+flex-direction: column;
+
 
 ` 
+export const MobileMenuBtn = styled.button`
+border:none;
+background-color:transparent;
+`

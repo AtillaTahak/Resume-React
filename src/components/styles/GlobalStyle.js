@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
+import breakpoint from './breakpoint'
+
 
 const GlobalStye = createGlobalStyle`
 *, *::before, *::after {
@@ -24,6 +26,14 @@ body{
   justify-content: center;
   align-content: center;
   border-top: 4px solid #dc3545;
+  @media only screen and (${breakpoint.device.sm}) {
+    display: block;
+  }
+
+
+  @media only screen and(${breakpoint.device.lg}) {
+    display: grid;
+  } 
 }
 
 .profilePhoto{

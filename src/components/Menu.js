@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '../img/img.jpg';
-import { Menus, MenusUl, MenusUlLi, MenusUlLiA, MobileMenus, MobileMenusUl } from './styles/Menus.styled'
+import { Menus, MenusUl, MenusUlLi, MenusUlLiA, MobileMenus, MobileMenusUl,MobileMenuBtn } from './styles/Menus.styled'
 import { BsBorderWidth } from "react-icons/bs";
 
 
@@ -21,8 +21,8 @@ export const Menu = (props) => {
             </Menus>
             <MobileMenus>
                 <div>
-                    <MobileMenusUl>
-                        <li> <h1>{props.data.about.name}</h1></li>
+                <h1>{props.data.about.name}</h1>
+                    <MobileMenusUl open={props.open}>
                         <li><MenusUlLiA activeClass='active' to="experience" spy={true} smooth={true} duration={1000}>EXPERIENCE</MenusUlLiA></li>
                         <li><MenusUlLiA activeClass='active' to="education" spy={true} smooth={true} duration={1000}>EDUCATION</MenusUlLiA></li>
                         <li><MenusUlLiA activeClass='active' to="skills" spy={true} smooth={true} duration={1000}>SKILLS</MenusUlLiA></li>
@@ -31,7 +31,10 @@ export const Menu = (props) => {
 
                     </MobileMenusUl>
                 </div>
-                <BsBorderWidth size="2.3rem" />
+                <div>
+                <MobileMenuBtn type='button' open={props.open} onClick={()=>props.setOpen(!props.open)}><BsBorderWidth size="2.3rem" /></MobileMenuBtn> 
+                </div>
+        
 
 
             </MobileMenus>
