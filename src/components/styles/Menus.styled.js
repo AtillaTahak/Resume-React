@@ -1,8 +1,18 @@
 import styled from 'styled-components'
 import {Link} from 'react-scroll'
+import breakpoint from './breakpoint'
 
 export const Menus = styled.nav`
   background-color: ${({ theme }) => theme.colors.default};
+
+  @media only screen and (${breakpoint.device.sm}) {
+    display: none;
+  }
+
+
+  @media only screen and(${breakpoint.device.lg}) {
+    display: flex;
+  } 
 `
 export const MenusUl = styled.ul`
   list-style: none;
@@ -13,6 +23,7 @@ export const MenusUl = styled.ul`
   justify-content: center;
   position: sticky;
   top:0;
+
 `
 
 export const MenusUlLi = styled.ul`
@@ -30,4 +41,9 @@ export const MenusUlLiA = styled(Link)`
   cursor: pointer;
   color:white;
   }
+`
+
+export const MobileMenus = styled.nav`
+
+display: none;
 `
