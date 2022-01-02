@@ -2,6 +2,7 @@ import Menu from './components/Menu';
 import Content from './components/Content';
 import GlobalStye from './components/styles/GlobalStyle'
 import { ThemeProvider } from 'styled-components'
+import info from './components/data/data'
 
 
 const theme ={
@@ -14,8 +15,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className='App'>
         <GlobalStye />
-        <Menu />
-        <Content />
+        <Menu data={info} />
+        <Content data={info} />
       </div>
 
     </ThemeProvider>

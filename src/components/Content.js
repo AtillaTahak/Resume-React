@@ -5,23 +5,22 @@ import Education from './Contents/Education';
 import Skills from './Contents/Skills';
 import Interests from './Contents/Interests';
 import Projects from './Contents/Projects';
-import info from './data/data'
 
 
 
 
-const Content = () => {
+const Content = (props) => {
     return (
         <div className='Content'>
             <About
-                data={info.about} />
+                data={props.data.about} />
             <Experience
-                data={info.experience} />
+                data={props.data.experience} />
             <Education
-                data={info.education} />
+                data={props.data.education} />
             <Skills />
             <Interests
-                data={info.interests} />
+                data={props.data.interests} />
             <Projects />
 
         </div>

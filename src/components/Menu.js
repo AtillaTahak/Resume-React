@@ -1,10 +1,12 @@
 import React from 'react';
 import img from '../img/img.jpg';
-import { Menus, MenusUl, MenusUlLi, MenusUlLiA, MobileMenus } from './styles/Menus.styled'
+import { Menus, MenusUl, MenusUlLi, MenusUlLiA, MobileMenus, MobileMenusUl } from './styles/Menus.styled'
+import { BsBorderWidth } from "react-icons/bs";
 
 
 
-export const Menu = () => {
+
+export const Menu = (props) => {
     return (
         <>
             <Menus>
@@ -18,6 +20,19 @@ export const Menu = () => {
                 </MenusUl>
             </Menus>
             <MobileMenus>
+                <div>
+                    <MobileMenusUl>
+                        <li> <h1>{props.data.about.name}</h1></li>
+                        <li><MenusUlLiA activeClass='active' to="experience" spy={true} smooth={true} duration={1000}>EXPERIENCE</MenusUlLiA></li>
+                        <li><MenusUlLiA activeClass='active' to="education" spy={true} smooth={true} duration={1000}>EDUCATION</MenusUlLiA></li>
+                        <li><MenusUlLiA activeClass='active' to="skills" spy={true} smooth={true} duration={1000}>SKILLS</MenusUlLiA></li>
+                        <li><MenusUlLiA activeClass='active' to="interests" spy={true} smooth={true} duration={1000}>INTERESTS</MenusUlLiA></li>
+                        <li><MenusUlLiA activeClass='active' to="projects" spy={true} smooth={true} duration={1000}>PROJECTS</MenusUlLiA></li>
+
+                    </MobileMenusUl>
+                </div>
+                <BsBorderWidth size="2.3rem" />
+
 
             </MobileMenus>
         </>

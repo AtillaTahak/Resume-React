@@ -11,7 +11,6 @@ export const Menus = styled.nav`
 
 
   @media only screen and(${breakpoint.device.lg}) {
-    display: flex;
   } 
 `
 export const MenusUl = styled.ul`
@@ -44,6 +43,25 @@ export const MenusUlLiA = styled(Link)`
 `
 
 export const MobileMenus = styled.nav`
+  display: none;
+  background-color: ${({ theme }) => theme.colors.default};
+  grid-area: 1 / 1 / 2 / 3;
+  justify-content: space-between;
 
-display: none;
+  @media only screen and (${breakpoint.device.sm}) {
+    display: flex;
+  }
+
+
+  @media only screen and(${breakpoint.device.lg}) {
+    display: none;
+  } 
 `
+
+export const MobileMenusUl = styled.ul` 
+
+margin-top:20px;
+list-style: disc;
+padding-bottom:20px;
+
+` 
