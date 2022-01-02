@@ -3,10 +3,11 @@ import styled from 'styled-components'
 export const Content = styled.section`
 display:flex;
 flex-direction:column;
-height: 100vh;
+height: auto;
 justify-content: center;
 margin:auto 2%;
 margin-top: 10vh;
+padding-bottom: 100px;
 
 `
 
@@ -14,7 +15,8 @@ export const Cards = styled.div`
 display:flex;
 justify-content:space-between;
 flex-direction: row-reverse;
-flex-wrap: wrap;
+flex-wrap: nowrap;
+width: 100%;
 
 `
 export const CardsDate = styled.p`
