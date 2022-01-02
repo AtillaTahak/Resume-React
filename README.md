@@ -30,7 +30,7 @@
 **To get a copy of this repo into your local machine run the following command:**
 ```
 git clone https://github.com/AtillaTahak/Resume-React
-cd Resume
+cd Resume-React
 Edit data.js with your own knowledge
 git npm install
 git npm start
