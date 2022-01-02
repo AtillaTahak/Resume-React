@@ -22,8 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link Heroku](https://lit-meadow-10167.herokuapp.com)
-[Live Demo Link netfily](https://naughty-wozniak-f557c8.netlify.app)
+[Live Demo Link](https://dazzling-turing-962a6f.netlify.app)
 
 
 ## Getting Started
